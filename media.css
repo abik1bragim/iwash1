@@ -1,0 +1,396 @@
+@media (max-width:500px) {
+    nav {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid red; */
+    }
+
+    nav img {
+        width: 100px !important;
+    }
+
+    nav>.mainCall {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        height: 80vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+    .mainText {
+        width: 100% !important;
+        height: 45%;
+        /* border: 1px solid gold; */
+    }
+
+    .mainText img {
+        width: 250px !important;
+    }
+
+    .mainText p {
+        font-size: 13px;
+    }
+
+    .mainText button {
+        width: 100px !important;
+        font-size: 13px !important;
+    }
+
+    .mainImg {
+        width: 100% !important;
+        height: 50%;
+        /* border: 1px solid blue; */
+        background: url("./image/Screenshot_2024-02-18_at_10.25.42_AM-removebg-preview.png") no-repeat center/contain !important;
+    }
+
+    .mainImg img {
+        width: 450px !important;
+    }
+
+    .conatiner {
+        width: 100%;
+        height: auto;
+    }
+
+    .bildirish {
+        width: 100%;
+        height: auto !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 40px;
+        /* border: 1px solid red; */
+    }
+
+    .fayiz {
+        width: 100%;
+        height: auto !important;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .fayiz1 {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .fayiz-child {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .fayiz-child h2 {
+        font-size: 23px !important;
+    }
+
+    .nimalarQilinadi {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+    }
+
+    .nimalarQilinadi h1 {
+        font-size: 20px;
+    }
+
+    .tanlovlar {
+        display: flex;
+        flex-wrap: wrap;
+        /* border: 1px solid gold; */
+    }
+
+    .tanlovlar img {
+        width: 290px !important;
+        transform: translateY(250px);
+    }
+
+    .tanlov {
+        width: 150px !important;
+        /* border: 1px solid red; */
+        transform: translateX(0) translateY(0) !important;
+    }
+
+    .tanlov p {
+        font-size: 10px;
+    }
+
+    lord-icon {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .one {
+        transform: translateX(-100px) translateY(-330px) !important;
+    }
+
+
+    .two {
+        transform: translateX(90px) translateY(-330px) !important;
+    }
+
+    .three {
+        transform: translateX(-100px) translateY(-200px) !important;
+    }
+
+    .four {
+        transform: translateX(90px) translateY(-200px) !important;
+    }
+
+    .five {
+        transform: translateX(-100px) translateY(-70px) !important;
+    }
+
+    .six {
+        transform: translateX(90px) translateY(-70px) !important;
+    }
+
+    .seven {
+        transform: translateX(-100px) translateY(60px) !important;
+    }
+
+
+    .asoschi {
+        width: 100%;
+        height: 90vh !important;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    .mainAsos {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 !important;
+    }
+
+    .asoschiText {
+        width: 100% !important;
+        height: 50%;
+        /* border: 1px solid gold; */
+        padding: 30px !important;
+    }
+
+    .asoschiText p {
+        font-size: 12px;
+    }
+
+    .asoschiImg {
+        width: 100% !important;
+        height: 50%;
+        padding: 0 !important;
+        /* border: 1px solid firebrick; */
+    }
+
+    .asoschiAvatar {
+        width: 300px !important;
+        height: 300px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .asoschiAvatar img {
+        width: 300px !important;
+        margin-top: -1px !important;
+    }
+
+    .mainXizmatlar {
+        width: 100%;
+        height: auto !important;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+    }
+
+    .mainXizmatlar h1 {
+        font-size: 20px;
+    }
+
+    .xizmatlar {
+        width: 100%;
+        height: auto !important;
+        /* border: 1px solid gold; */
+        display: flex;
+        flex-wrap: wrap !important;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .xizmat {
+        width: 165px !important;
+        height: 370px !important;
+        /* border: 1px solid darkcyan; */
+        padding: 0 !important;
+    }
+
+    .xizmat img {
+        width: 100%;
+        height: 130px !important;
+        object-fit: cover;
+    }
+
+    .xizmat h1 {
+        height: 40px !important;
+        /* border: 1px solid red; */
+        font-size: 14px !important;
+        margin-left: 15px !important;
+    }
+
+    .xizmat p {
+        font-size: 10px !important;
+        margin-top: 0 !important;
+        margin-left: 15px !important;
+        margin-top: 10px !important;
+    }
+
+    .xizmat button {
+        width: 100px !important;
+        height: 35px !important;
+        font-size: 10px !important;
+        padding: 8px;
+        transform: translate(0) !important;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+
+    .boglanish {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+    }
+
+    .boglanish h1 {
+        font-size: 20px;
+    }
+
+    .boglanishImg {
+        display: none !important;
+    }
+
+    .boglanishImg img {
+        width: 400px !important;
+        transform: translateY(100px);
+    }
+
+    .boglaning form {
+        width: 90% !important;
+    }
+
+    .boglaning form select {
+        width: 90% !important;
+    }
+
+    .boglaning form input {
+        width: 90% !important;
+    }
+
+    .boglaning form button {
+        width: 100% !important;
+    }
+
+    .mainContact {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conatctBox {
+        width: 90% !important;
+        height: auto;
+        /* border: 1px solid gold; */
+        display: flex;
+        flex-direction: column;
+        padding: 0 !important;
+        margin-top: 50px;
+    }
+
+    .contact {
+        width: 90% !important;
+    }
+
+    .contact h3 {
+        font-size: 17px !important;
+    }
+
+    .contact p {
+        font-size: 13px !important;
+    }
+
+    .contact h3 span a {
+        font-size: 13px !important;
+    }
+
+    .contact h3 span {
+        font-size: 13px !important;
+    }
+
+    .contact button {
+        width: 150px !important;
+        height: 35px !important;
+        transform: translate(0) !important;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 12px !important;
+    }
+
+    .map {
+        width: 90% !important;
+        height: 400px !important;
+    }
+
+    footer {
+        width: 100%;
+        height: auto !important;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0 !important;
+        gap: 20px !important;
+    }
+
+    .fooXizmat {
+        width: 90% !important;
+        height: 300px !important;
+        /* border: 1px solid gold; */
+        margin-top: 50px;
+    }
+
+    .fooXizmat ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .fooBolim {
+        width: 90% !important;
+        height: 150px !important;
+        /* border: 1px solid gold; */
+    }
+
+    .fooConatct {
+        width: 100%;
+        /* border: 1px solid gold; */
+        padding: 20px;
+    }
+}
